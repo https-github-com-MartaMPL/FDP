@@ -1,17 +1,16 @@
-#==================================================================================
+#**********************************************************************************
 #AUTHOR				  :	Marta Padin
-#CREATION DATE	: 2019
-#==================================================================================
-#DESCRIPTION: This file contains some  
+#CREATION DATE	: Feb 2019 - Sep 2019
+#**********************************************************************************
+#DESCRIPTION:   This file is a draft where you can later find how to make Bayesian 
+#               seasonal forecasts using the DLM library
 #
-#==================================================================================
-#--------VARIABLES--------   ------------------------DESCRIPTION-------------------
-# LEIBmarzoVD.ts                        
-# txtfile                   
-# LEIBmarzoVD
-# LEIB_6h
-#==================================================================================
-#-------- EXAMPLE------------------------------------------------------------------
+#**********************************************************************************
+#To use this file we need a time series: LEIBmarzo.ts, a data set with all the 
+#variables indicated below and the historical observations saved in LEIB_6h.
+
+
+
 #Necessary libraries:
 library(dlm)
 library(tidyverse)
